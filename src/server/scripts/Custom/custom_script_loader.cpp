@@ -18,6 +18,11 @@
 // This is where scripts' loading functions should be declared:
 void AddSC_custom_npcs();
 void AddSC_custom_player_script();
+void AddSC_solocraft();
+void AddSC_gon_playerscripts();
+void AddSC_announce_login();
+void AddSC_Boss_Announcer();
+void AddSC_XpWeekend();
 
 // ADM declaration begin
 // ADM declaration end
@@ -28,6 +33,11 @@ void AddCustomScripts()
 {
     AddSC_custom_npcs();
     AddSC_custom_player_script();
+	AddSC_solocraft();
+	AddSC_gon_playerscripts();
+	AddSC_announce_login();
+	AddSC_Boss_Announcer();
+	AddSC_XpWeekend();
 
     // ADM call begin
     // ADM call end
